@@ -1,8 +1,8 @@
 -- Chime V2 Database Schema
 -- Copyright Zayne Franke 2025
 
-CREATE DATABASE IF NOT EXISTS if0_40232921_chime_api;
-USE if0_40232921_chime_api;
+-- Database already exists: mseet_40233157_ChimeV2
+USE mseet_40233157_ChimeV2;
 
 -- Users table
 CREATE TABLE IF NOT EXISTS users (
