@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const { executeQuery } = require('../config/database');
 
-const JWT_SECRET = process.env.JWT_SECRET || 'chime-v2-secret-key-2025';
+const JWT_SECRET = 'SHB27SBN2386BS3BDS729783YFBG028EHDBN2976TDASBDFOIURY98237DFBQ29274YGN29047857';
 
 async function authenticateToken(req, res, next) {
   const authHeader = req.headers['authorization'];

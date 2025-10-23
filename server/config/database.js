@@ -4,11 +4,11 @@ require('dotenv').config();
 let connection;
 
 const dbConfig = {
-  host: process.env.DB_HOST || 'sql311.infinityfree.com',
-  user: process.env.DB_USER || 'if0_40232921',
-  password: process.env.DB_PASSWORD || 'S4LYpeaeRQFmOh',
-  database: process.env.DB_NAME || 'if0_40232921_chime_api',
-  port: process.env.DB_PORT || 3306,
+  host: 'sql209.hstn.me',
+  user: 'mseet_40233157',
+  password: '6N7aZJpiAKEw',
+  database: 'mseet_40233157_ChimeV2',
+  port: 3306,
   charset: 'utf8mb4',
   timezone: '+00:00',
   acquireTimeout: 60000,

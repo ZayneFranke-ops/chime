@@ -41,7 +41,7 @@ app.use(limiter);
 
 // CORS configuration
 app.use(cors({
-  origin: process.env.CLIENT_URL || "http://localhost:3000",
+  origin: ["http://localhost:3000", "https://chime-v2.vercel.app", "https://chime-v2-git-main.vercel.app"],
   credentials: true
 }));
 
